@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --surface-page: white;
+  --surface-card: #fed7aa;
+  --surface-input: white;
+  --text-primary: #0f172a;
+  --color-secondary: #475569;
+  --border-default: #e2e8f0;
+  --radius-sm: 4px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+  --body-lg-fontFamily: 'Geist', sans-serif;
+  --body-lg-fontSize: 16px;
+  --body-lg-lineHeight: 24px;
+  --body-lg-letterSpacing: 0px;
+  --body-lg-fontWeight: 400;
+  --fill-0: #EA580C;
+  --stroke-0: white;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-lg-fontFamily);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Made with Bob */
